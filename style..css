@@ -423,24 +423,31 @@
         padding-inline: 10px;
     }
 
+}
 
 
+@media (max-width:480px) {
+    
 
+.right a{
+    display: none;
+}
 
+.hero-section {
+    flex-direction: column;
+}
 
+.left h1{
+    font-size:20px;
+}
 
+.text-part{
+    width: 100%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.image-part{
+    width: 100%;
+}
 
 
 }
